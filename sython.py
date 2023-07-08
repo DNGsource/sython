@@ -66,12 +66,6 @@ async def join_channel(event):
         pass
       
 
-@sython1.on(events.NewMessage)
-async def join_channel(event):
-    try:
-        await sython1(JoinChannelRequest("@K_K_Q_L"))
-    except BaseException:
-        pass  
         
         
         
