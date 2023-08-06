@@ -39,11 +39,11 @@ sython1.start()
 
 
 c = requests.session()
-bot_username = '@zmmbot'
+bot_username = '@eeobot'
 bot_usernamee = '@A_MAN9300BOT'
 bot_usernameee = '@MARKTEBOT'
 bot_usernameeee = '@xnsex21bot'
-bot_usernameeeee = '@srwry2bot'
+bot_usernameeeee = '@srwrot'
 ownerhson_id = (int(DEVLOO))
 LOGS = logging.getLogger(__name__)
 DEVS = [5159123009]
@@ -116,8 +116,7 @@ async def OwnerStart(event):
 `/point1` :  تجميع نقاط بوت المليار
 `/point2` : تجميع نقاط بوت الجوكر 
 `/point3` :  تجميع نقاط بوت العقاب 
-`/point4` :   تجميع نقاط بوت العرب
-`/point5` :   تجميع نقاط بوت اليمن
+`/point4` :   تجميع نقاط بوت العرب 
 note : تستخدم هذه الاوامر بأرسالها الى الحساب او بأرسالها الى مجموعة يوجد فيها الحساب
 
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
