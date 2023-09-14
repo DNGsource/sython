@@ -847,7 +847,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         await event.reply("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
         await sython1.disconnect()
-        await sython1.send_message(event.chat_id, "تم اعادة تشغيل السورس ")
+    await sython1.send_message(event.chat_id, "تم اعادة تشغيل السورس ")
         
 
 
@@ -973,10 +973,13 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         dialogs = await sython1.get_dialogs()
+        await event.respond(f"**جارى مغادرة القنوات و المجموعات**")
+        channel_count = 0
         for dialog in dialogs:
             if dialog.is_channel:
                 await sython1(LeaveChannelRequest(dialog.entity))
-                await event.respond(f"**قمت بمغادرة جميع القنوات والمجموعات**")
+                channel_count += 1
+        await event.respond(f"**تم مغادرة {channel_count} قناة/مجموعة.**")
                 
 
 
